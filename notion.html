@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+  <head>
+    <meta charset="UTF-8" />
+    <title>صفحه خوشامدگویی</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        direction: rtl;
+        background-color: #f9f9f9;
+      }
+      #container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+      }
+      #main {
+        width: 1000px;
+        height: 300px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+      }
+      .right img {
+        height: 250px;
+        object-fit: contain;
+      }
+      .left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: right; 
+      }
+      .left .text {
+        font-size: 40px;
+        font-weight: 900;
+        line-height: 1.2;
+        color: #333;
+        margin: 0 0 10px 0;
+      }
+      .left .description {
+        font-size: 18px;
+        color: #666;
+        margin: 0 0 20px 0;
+      }
+      .Buttons {
+        display: flex;
+        gap: 10px;
+      }
+      .Buttons button {
+        padding: 12px 25px;
+        font-size: 16px;
+        font-weight: 600;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      .Buttons .right-btn {
+        background-color: #0095f6;
+        color: #fff;
+      }
+      .Buttons .right-btn:hover {
+        background-color: #007bb5;
+      }
+      .Buttons .left-btn {
+        background-color: #f0f0f0;
+        color: #0095f6;
+      }
+      .Buttons .left-btn:hover {
+        background-color: #ddd;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="container">
+      <div id="main">
+        <div class="right">
+          <img src="notion.png" alt="تصویر Notion" />
+        </div>
+        <div class="left">
+          <h1 class="text">به وبسایت ما<br />خوش آمدید</h1>
+          <p class="description">
+            بنویسید، برنامه‌ریزی کنید، همکاری کنید. با کمی کمک از هوش مصنوعی
+          </p>
+          <div class="Buttons">
+            <button class="right-btn" type="button">شروع کنید</button>
+            <button class="left-btn" type="button">بیشتر بدانید</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
