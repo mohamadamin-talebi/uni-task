@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فرم ورود</title>
+
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f2f5;
+        }
+
+        .login-container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+        }
+
+        .login-container input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        .login-container button {
+            width: 100%;
+            padding: 10px;
+            background-color: #0095f6;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .login-container button:hover {
+            background-color: #007bb5;
+        }
+
+        .login-container a {
+            color: #0095f6;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .login-container p:hover {
+            text-decoration: underline;
+        }
+
+</style>
+
+</head>
+<body>
+
+    <div class="login-container">
+
+    <h2>ورود</h2>
+
+         <input type="text" id="username" name="username" placeholder="نام کاربری یا ایمیل">
+         <input type="password" id="password" name="password" placeholder="رمز عبور">
+         <button type="submit">ورود</button>
+         <p><a href="/forgot-password">بازیابی رمز عبور</a></p>
+         <p>حساب کاربری ندارید؟ <a href="/signup">ثبت نام</a></p>
+
+    </div>
+
+</body>
+</html>
